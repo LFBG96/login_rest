@@ -49,7 +49,7 @@ class LoginUserView(CreateAPIView):
 
         return Response(serializer.errors,status=HTTP_400_BAD_REQUEST)
     
-
+#a
 class A(ListAPIView):
     permission_classes = [IsAuthenticated,]
     authentication_classes = [JWTAuthentication,]
